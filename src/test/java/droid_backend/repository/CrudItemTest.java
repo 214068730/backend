@@ -21,10 +21,10 @@ public class CrudItemTest extends AbstractTestNGSpringContextTests {
     private ItemRepository repo;
 
 
-    @Test
+    /*@Test
     public void testCreate() throws Exception {
         Item item1 = ItemFactory.getItem(100L,"Chocolate",4.00);
         Item item = repo.save(item1);
         Assert.assertNotNull(item);
-    }
+    }*/
 }

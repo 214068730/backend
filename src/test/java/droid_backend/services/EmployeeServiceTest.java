@@ -24,7 +24,7 @@ public class EmployeeServiceTest  extends AbstractTestNGSpringContextTests {
     @Autowired
     EmployeeServiceImpl service;
 
-    @Test
+    /*@Test
     public void testCreateEmployee() throws Exception {
         AddressVO address = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Employee employee = new Employee.EmployeeBuilder()
@@ -67,5 +67,5 @@ public class EmployeeServiceTest  extends AbstractTestNGSpringContextTests {
             Employee deletedRecord = service.readById(4L);
             Assert.assertNull(deletedRecord);
         }
-    }
+    }*/
 }

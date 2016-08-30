@@ -14,7 +14,7 @@ import org.junit.Test;
  */
 public class SupplierTest extends TestCase {
 
-    @Test
+    /*@Test
     public void testCreateSupplier() throws Exception {
         AddressVO supplierAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Supplier supplier = SupplierFactory.getSupplier(01L,"Camen",supplierAddress);
@@ -34,5 +34,5 @@ public class SupplierTest extends TestCase {
                 .build();
 
         Assert.assertEquals("Shireen",updateSupplier.getSupplierName());
-    }
+    }*/
 }

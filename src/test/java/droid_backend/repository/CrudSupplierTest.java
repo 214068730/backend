@@ -23,7 +23,7 @@ public class CrudSupplierTest extends AbstractTestNGSpringContextTests {
     SupplierRepository repo;
 
 
-    @Test
+   /* @Test
     public void testCreate() throws Exception {
 
         AddressVO supplierAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
@@ -31,5 +31,5 @@ public class CrudSupplierTest extends AbstractTestNGSpringContextTests {
 
         Supplier record = repo.save(supplier);
         Assert.assertNotNull(record);
-    }
+    }*/
 }

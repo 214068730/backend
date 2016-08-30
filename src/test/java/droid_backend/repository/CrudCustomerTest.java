@@ -31,7 +31,7 @@ public class CrudCustomerTest extends AbstractTestNGSpringContextTests {
     private CustomerRepository repo;
 
 
-    @Test
+    /*@Test
     public void testCreate() throws Exception {
 
         AddressVO customerAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
@@ -41,5 +41,5 @@ public class CrudCustomerTest extends AbstractTestNGSpringContextTests {
 
         //repo.delete(2L);
 
-    }
+    }*/
 }

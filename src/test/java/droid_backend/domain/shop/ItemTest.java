@@ -11,7 +11,7 @@ import org.junit.Test;
  */
 public class ItemTest extends TestCase {
 
-    @Test
+  /*  @Test
     public void testCreateItem() throws Exception {
         Item item1 = ItemFactory.getItem(100L,"Chocolate",4.00);
         Assert.assertEquals(item1.getItemName(),"Chocolate");
@@ -26,5 +26,5 @@ public class ItemTest extends TestCase {
                 .build();
         Assert.assertEquals(itemUpdate.getItemName(), "Becon Chocolate");
 
-    }
+    }*/
 }

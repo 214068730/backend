@@ -14,7 +14,7 @@ import org.junit.Test;
  */
 public class CustomerTest extends TestCase {
 
-    @Test
+    /*@Test
     public void testCreateCustomer() throws Exception {
         AddressVO customerAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Customer customer = CustomerFactory.getCustomer(1000L, "Shireen", customerAddress);
@@ -37,5 +37,5 @@ public class CustomerTest extends TestCase {
         Assert.assertEquals("57 Spitz Way",updateCustomer.getStreetName());
         Assert.assertEquals("Shireen",updateCustomer.getCustName());
 
-    }
+    }*/
 }

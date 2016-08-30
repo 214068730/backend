@@ -22,7 +22,7 @@ public class CrudEmployeeTest extends AbstractTestNGSpringContextTests {
     @Autowired
     EmployeeRepository repo;
 
-    @Test
+    /*@Test
     public void testCreate() throws Exception {
         AddressVO employeeAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Employee employee = new Employee.EmployeeBuilder()
@@ -31,5 +31,5 @@ public class CrudEmployeeTest extends AbstractTestNGSpringContextTests {
                 .address(employeeAddress)
                 .build();
         Employee record = repo.save(employee);
-    }
+    }*/
 }

@@ -23,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
 @WebAppConfiguration
 public class CustomerControllerTest extends AbstractTestNGSpringContextTests {
 
-    @Test
+    /*@Test
     public void testCreate(){
         String URI =  "http://localhost:8080/shop";
         RestTemplate restTemplate = new RestTemplate();
@@ -70,6 +70,6 @@ public class CustomerControllerTest extends AbstractTestNGSpringContextTests {
         restTemplate.delete(URI,"5");
         Customer customer = restTemplate.getForObject(URI, Customer.class, "5");
         Assert.assertNull(customer);
-    }
+    }*/
 
 }

@@ -13,7 +13,7 @@ import org.junit.Test;
  * Created by Siraaj on 08/03/2016.
  */
 public class EmployeeTest extends TestCase {
-    @Test
+    /*@Test
     public void testCreateEmployee() throws Exception {
         AddressVO employeeAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Employee employee = EmployeeFactory.getEmployee(0001L, "Kashiefa", "Cottle", employeeAddress);
@@ -36,5 +36,5 @@ public class EmployeeTest extends TestCase {
 
         Assert.assertEquals("Siraaj",updateEmployee.getName());
         Assert.assertEquals("Wilkinson",updateEmployee.getSurname());
-    }
+    }*/
 }
