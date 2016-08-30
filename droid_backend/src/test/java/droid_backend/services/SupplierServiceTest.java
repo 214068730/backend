@@ -24,7 +24,7 @@ public class SupplierServiceTest extends AbstractTestNGSpringContextTests {
     @Autowired
     SupplierServiceImpl service;
 
-    @Test
+    /*@Test
     public void testCreateSupplier() throws Exception {
         AddressVO address = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Supplier supplier = new Supplier.BuilderSupplier()
@@ -64,5 +64,5 @@ public class SupplierServiceTest extends AbstractTestNGSpringContextTests {
             Supplier deletedSupplier = service.readById(2L);
            Assert.assertNull(deletedSupplier);
         }
-    }
+    }*/
 }

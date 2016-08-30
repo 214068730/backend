@@ -27,7 +27,7 @@ public class CustomerServiceTest extends AbstractTestNGSpringContextTests {
     @Autowired
     private CustomerServceImpl service;
 
-    @Test
+    /*@Test
     public void testCreateCustomer() throws Exception {
         AddressVO customerAddress = AddressFactory.getAddress("7798","15 Sparrow","Rocklands");
         Customer customer = new Customer.CustomerBuild()
@@ -66,5 +66,5 @@ public class CustomerServiceTest extends AbstractTestNGSpringContextTests {
             Customer deletedCustomer = service.readById(2L);
             Assert.assertNull(deletedCustomer);
         }
-    }
+    }*/
 }

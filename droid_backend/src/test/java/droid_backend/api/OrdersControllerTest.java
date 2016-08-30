@@ -25,7 +25,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringApplicationConfiguration(classes = App.class)
 @WebAppConfiguration
 public class OrdersControllerTest extends AbstractTestNGSpringContextTests {
-    @Test
+   /* @Test
     public void testCreate(){
         String URI = "http://localhost:8080/shop/sales/create";
             RestTemplate restTemplate = new RestTemplate();
@@ -49,7 +49,7 @@ public class OrdersControllerTest extends AbstractTestNGSpringContextTests {
                     .build();
         restTemplate.postForObject(URI,process,ShopProcess.class);
 //       Assert.assertEquals(order.getCustomerID(),new Long(1));
-        }
+        }*/
 
 
 }

@@ -21,7 +21,7 @@ public class ItemServiceTest extends AbstractTestNGSpringContextTests {
     @Autowired
     ItemServiceImpl service;
 
-    @Test
+    /*@Test
     public void testCreateItem() throws Exception {
         Item item = new Item.ItemBuilder()
                 .itemCode(0L)
@@ -60,5 +60,5 @@ public class ItemServiceTest extends AbstractTestNGSpringContextTests {
             Item deletedItem = service.readById(2L);
             Assert.assertNull(deletedItem);
         }
-    }
+    }*/
 }

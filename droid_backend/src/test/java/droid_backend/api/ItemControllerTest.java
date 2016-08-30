@@ -20,7 +20,7 @@ import org.springframework.web.client.RestTemplate;
 @WebAppConfiguration
 public class ItemControllerTest extends AbstractTestNGSpringContextTests {
 
-    @Test
+   /* @Test
     public void testCreate(){
         String URI =  "http://localhost:8080/shop/item/create";
         RestTemplate restTemplate = new RestTemplate();
@@ -65,6 +65,6 @@ public class ItemControllerTest extends AbstractTestNGSpringContextTests {
         Assert.assertNull(item);
 
 
-    }
+    }*/
 
 }

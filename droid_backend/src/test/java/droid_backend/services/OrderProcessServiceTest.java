@@ -33,7 +33,7 @@ public class OrderProcessServiceTest extends AbstractTestNGSpringContextTests {
     @Autowired
     ItemServiceImpl itemService;
 
-    @Test
+    /*@Test
     public void testCreateOrder() throws Exception {
 
         Customer customerRecord =customerService.readById(1L);
