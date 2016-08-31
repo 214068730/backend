@@ -19,33 +19,33 @@ public class CustomerController {
     @Autowired
     CustomerService service;
 
-    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "customer/{id}",method = RequestMethod.GET)
     @ResponseBody
     public Customer findById(@PathVariable Long id){
         return   service.readById(id);
     }
 
-    @RequestMapping(method= RequestMethod.POST)
+    @RequestMapping(value = "/customer/create",method= RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
     public Customer create(@RequestBody Customer customer){
         return  service.create(customer);
     }
 
-    @RequestMapping(method =  RequestMethod.PUT)
+    @RequestMapping(value = "/customer/update",method =  RequestMethod.PUT)
     @ResponseStatus(HttpStatus.OK)
     public void update(@RequestBody Customer customer){
         service.update(customer);
     }
 
 
-    @RequestMapping(method = RequestMethod.GET)
+   @RequestMapping(value = "/customer/findAll",method = RequestMethod.GET)
     @ResponseBody
     public List<Customer> findAll(){
         return service.readAll();
     }
 
-    @RequestMapping(value="/{id}",method = RequestMethod.DELETE)
+   @RequestMapping(value="customer/delete/{id}",method = RequestMethod.DELETE)
     @ResponseStatus(HttpStatus.OK)
     public void delete(@PathVariable("id")Long id){
         Customer customerDeleted= service.readById(id);
