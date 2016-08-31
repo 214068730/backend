@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Siraaj on 08/31/2016.
  */
 @RestController
-@RequestMapping(value="/")
+@RequestMapping("/")
 public class LandingPage {
     @RequestMapping(method = RequestMethod.GET)
     public Customer getCustomer(){
